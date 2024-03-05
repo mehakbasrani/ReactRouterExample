@@ -13,10 +13,12 @@ export default function SignIn() {
         </Label>
         <Input
           icon="at"
-          autoComplete="off"
           iconPosition="left"
+          autoComplete="off"
+          type="email"
           name="email"
           placeholder="Email"
+          required
         />
         <br />
         <br />
@@ -28,9 +30,11 @@ export default function SignIn() {
           type="password"
           autoComplete="current-password"
           placeholder="Enter your passowrd here"
+          required
         />
         <br />
         <br />
+
         <Button content="Submit" primary />
       </Form>
     </>
